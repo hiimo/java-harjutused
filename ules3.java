@@ -2,24 +2,23 @@ public class ules3 {
     public static void main(String[] args) {
 		int[] arvud = {12,5,10,10,28,17,5,19,0,13,0,22,7,0,17,2,24,1,13,29,0,7,16,8,7,4,27,8,8,23,26,25,15,2,26,1};
 		//essa numbri otsimine
-		System.out.println("Esimene number: " +arvud[0]);
+		System.out.println("esimene number: " +arvud[0]);
 		//viimase numbri otsimine
-		System.out.println("Viimane number: " +arvud[arvud.length-1]);
+		System.out.println("viimane number: " +arvud[arvud.length-1]);
 		//masiiv leidmine
-		System.out.println("Arve kokku on: " + arvud.length);
+		System.out.println("arve kokku: " + arvud.length);
 		//arvutad kokku
 		int arv = 0;
 		for (int i : arvud) {
 			arv +=i;
 		}
-		System.out.println("Masiivis kokku: " +arv);
+		System.out.println("massiivis kokku: " +arv);
 		//keskmine
 		var summa = 0;
 		double kokku = arvud.length;
 		for(var i = 0; i < arvud.length; i++) {
 			summa+= arvud[i];
 		}
-		//var avg = summa / arvud.length;
 		
 		System.out.println("Keskmine on: " +summa/kokku);
 
