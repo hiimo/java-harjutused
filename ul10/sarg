@@ -1,0 +1,18 @@
+package ul10;
+
+public class sarg extends kala{
+    public kilu(String liik) {
+        super(liik);
+      
+    }
+
+    public kilu() {
+        super("default");
+        
+    }
+
+    public int uju(int muna){
+        return muna;
+    }
+ 
+}
