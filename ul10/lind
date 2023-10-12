@@ -1,0 +1,21 @@
+package ul10;
+
+public class lind extends loom{
+	private int jalaarv;
+	public lind(int jalaarv) {
+		this.jalaarv = jalaarv;
+	}
+	public int getjalaarv() {
+		return jalaarv;
+	}
+	public void setjalaarv(int jalaarv) {
+		this.jalaarv = jalaarv;
+	}
+	public void lenda(){
+		System.out.println("lap lap lap lap lap");
+	}
+    @Override
+    public void toit(){
+        System.out.println("Linnud soovad saaski");
+    }
+}
