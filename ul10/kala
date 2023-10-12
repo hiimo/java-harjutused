@@ -1,0 +1,17 @@
+package ul10;
+
+public class kala extends loom{
+	private String liik;
+	public kala(String liik) {
+		this.liik = liik;
+	}
+	public String getliik() {
+		return liik;
+	}
+	public void setliik(String liik) {
+		this.liik = liik;
+	}
+	public void ujumine(){
+		System.out.println("mull mull mull mull mull......");
+	}
+}
