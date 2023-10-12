@@ -1,0 +1,17 @@
+package ul10;
+
+public class roomaja extends loom {
+	private uss elav;
+	public roomaja(uss elav) {
+		this.elav = elav;
+	}
+	public uss getelav() {
+		return elav;
+	}
+	public void setelav(uss elav) {
+		this.elav = elav;
+	}
+	public void mismaolen(){
+		System.out.println("ma olen uss");
+	}
+}
