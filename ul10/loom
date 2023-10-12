@@ -1,0 +1,20 @@
+package ul10;
+
+public class loom {
+	protected String sugu; 
+	public void toit(){
+		System.out.println("soon koiki");
+	}
+	public void temp(){
+		System.out.println("pysisoojane");
+	}
+	
+	public String getSugu() {
+		return sugu;
+	}
+
+	public void setSugu(String sugu) {
+		this.sugu = sugu;
+	}
+
+}
