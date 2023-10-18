@@ -1,6 +1,6 @@
  import java.util.Date;
 
-// Klass tsiklite haldamiseks
+// klass tsiklite haldamiseks
 class tsikkel {
     private String brand;
 
@@ -14,7 +14,7 @@ class tsikkel {
     }
 
 }
-// Klass sõitjate haldamiseks
+// klass sõitjate haldamiseks
 class soitja {
     private String name;
     
@@ -29,7 +29,7 @@ class soitja {
 
 }
 
-// Klass treeningradade haldamiseks
+// klass treeningradade haldamiseks
 class rada {
     private String name;
     
@@ -43,7 +43,7 @@ class rada {
 
 }
 
-// Klass treeningute haldamiseks, mis ühendab tsiklid, sõitjad ja treeningradad
+// klass treeningute haldamiseks, mis ühendab tsiklid, sõitjad ja treeningradad
 class Training {
     private tsikkel motorcycle;
     private soitja rider;
