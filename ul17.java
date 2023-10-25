@@ -6,7 +6,7 @@ public class ul17 {
         System.out.print("\nPaarisarvud: ");
         for (int arv : arvud) {
             if (arv % 2 == 0) {
-                System.out.print(arv + " ");
+                System.out.print(arv);
                 //jagas massiivis olevad arvud kahega
             }
         }
