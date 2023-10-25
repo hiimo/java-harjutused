@@ -7,7 +7,7 @@ public class ul17 {
         for (int arv : arvud) {
             if (arv % 2 == 0) {
                 System.out.print(arv + " ");
-                //jagas integeris olevad arvud kahega
+                //jagas massiivis olevad arvud kahega
             }
         }
     }
