@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class ules20 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        
+        try {
         System.out.print("sisesta kahendsüsteemi arv: ");
         String kahendsysteemiArv = scanner.nextLine();
         
@@ -19,6 +19,7 @@ public class ules20 {
         }
         
         System.out.println("Kümnendsüsteemi arv: " + kymnesArv);
+        } catch (Exception e) {
     }
 }
 
