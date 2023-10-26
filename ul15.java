@@ -7,6 +7,7 @@ public class ul15 {
         String isikukood = scanner.next();
         //kui isikukood on 11 tahte siis vota 1 number
         if (isikukood.length() == 11) {
+            try {
             int esimeneNumber = Integer.parseInt(isikukood.substring(0, 1));
 
             //sugu, jagab 2 kui on paaris siis on naine, paaritu mees
@@ -33,6 +34,7 @@ public class ul15 {
             System.out.println("synnikuupäev: " + päev + "." + kuu + "." + aasta);
         } else {
             System.out.println("vale isikukood pane uus");
+        } catch (NumberFormatException e) {
         }
     }
     
