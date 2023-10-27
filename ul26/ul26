@@ -1,0 +1,35 @@
+import java.util.Scanner;
+
+class ul26 {
+    private double pikkus;
+    private double laius;
+    private double rmhind;
+
+    //vaiba asi
+    public ul26(double pikkus, double laius, double rmhind) {
+        this.pikkus = pikkus;
+        this.laius = laius;
+        this.rmhind = rmhind;
+     }
+     //kysib suuruseid
+     public static ul26 vaiploomine() {
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Sisesta vaiba pikkus meetrites");
+        double pikkus = scanner.nextDouble();
+        System.out.print("sisesta vaiba laius meetrites");
+        double laius = scanner.nextDouble();
+        return new ul26(pikkus, laius, 0);
+    
+    public void vaibahind() {
+        Scanner sccanner = new Scanner(System.in);
+        System.out.print("sisesta vaiba rm hind");
+        this.rmhind = Scanner.nextDouble();
+    }
+    public double vaibahindarvutamine() {
+        double pindala = this.pikkus * this.laius;
+        return pindala * this.rmhind;
+
+    }
+}
+
+
