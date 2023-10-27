@@ -23,7 +23,7 @@ class ul26 {
     public void vaibahind() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("sisesta vaiba rm hind");
-        this.rmhind = Scanner.nextDouble();
+        this.rmhind = scanner.nextDouble();
     }
     public double vaibahindarvutamine() {
         double pindala = this.pikkus * this.laius;
