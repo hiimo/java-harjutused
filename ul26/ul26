@@ -21,7 +21,7 @@ class ul26 {
         return new ul26(pikkus, laius, 0);
     
     public void vaibahind() {
-        Scanner sccanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         System.out.print("sisesta vaiba rm hind");
         this.rmhind = Scanner.nextDouble();
     }
